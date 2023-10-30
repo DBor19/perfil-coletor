@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 1000px;
+    height: 600px;
+    /* background-color: blue; */
+}
+
+.superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 340px;
+    /* background-color: beige; */
+    margin-bottom: 10px;
+}
+
+
+.inferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 250px;
+    /* background-color: aquamarine; */
+}
+
+.coletaEcarga {
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

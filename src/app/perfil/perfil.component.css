@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.global {
+    width: 650px;
+    height: 100%;
+    background-color: #C7C9C4;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+hr{
+    border:none;
+    height: 3px;
+    background-color: black;
+}
+
+#nome {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#cpf-cnpj {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+#email {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.ddd-celular, 
+.ddd-telefone {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ddd-celular{
+    width: 100%;
+    height: 50px; 
+    /* background-color: red; */
+}
+
+#ddd-cel{
+    width: 50px;
+    height: 30px; 
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.campo-celular{
+    width: 100%;
+    height: 50px; 
+}
+
+#celular {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.ddd-telefone{
+    width: 100%;
+    height: 50px; 
+    /* background-color: red; */
+}
+
+#ddd-tel{
+    width: 50px;
+    height: 30px; 
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.campo-telefone{
+    width: 100%;
+    height: 50px; 
+}
+
+#telefone {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+.botoes{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+
+
+
