@@ -7,16 +7,20 @@
 .global {
     width: 650px;
     height: 100%;
-    background-color: #C7C9C4;
+    background-color: #a9c685;
     border-radius: 20px;
     padding: 10px;
+    color: #2b463c;
 }
 
+h1 {
+    margin-bottom: 5px;
+}
 
 hr{
     border:none;
     height: 3px;
-    background-color: black;
+    background-color: #2b463c;
 }
 
 #nome {
@@ -103,7 +107,7 @@ button{
     margin: 0 5px;
     border-radius: 10px;
     color: white;
-    background-color: #000000;
+    background-color: #2b463c;
     cursor: pointer;
 }
 

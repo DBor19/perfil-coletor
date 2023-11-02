@@ -7,6 +7,68 @@
 .global {
     width: 300px;
     height: 100%;
-    background-color: #C7C9C4;
+    background-color: #a9c685;
     border-radius: 20px;
+    color: #2b463c;
+}
+
+.caixa-Foto{
+    height: 135px;
+    background-color: #2b463c;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.caixa-Foto img {
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    border: 3px;
+    border: 5px solid #688f4e;
+}
+
+.conjunto-estrelas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 34px;
+    /* background-color: orange; */
+}
+
+.estrelas {
+    color: yellow; 
+  }
+
+.nome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 34px;
+}
+
+.carga{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 34px;
+}
+
+.conjunto-localizacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 34px;
+}
+
+.pin-map {
+    color: #2b463c;
+}
+
+.data-entrada{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 34px;
 }

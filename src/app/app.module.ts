@@ -8,6 +8,7 @@ import { EnderecoComponent } from './endereco/endereco.component';
 import { ColetaComponent } from './coleta/coleta.component';
 import { FotoperfilComponent } from './fotoperfil/fotoperfil.component';
 import { CargaComponent } from './carga/carga.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CargaComponent } from './carga/carga.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
