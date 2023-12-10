@@ -9,6 +9,7 @@ import { ColetaComponent } from './coleta/coleta.component';
 import { FotoperfilComponent } from './fotoperfil/fotoperfil.component';
 import { CargaComponent } from './carga/carga.component';
 import { MatIconModule } from '@angular/material/icon';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
